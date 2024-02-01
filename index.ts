@@ -2,8 +2,8 @@
 import fs from 'fs';
 import torrentStream from 'torrent-stream';
 import readTorrent from 'read-torrent';
-import drive from './drive';
-import { db, dbFind } from './db';
+import drive from './src/drive';
+import { db, dbFind } from './src/db';
 import terminalArgs from 'yargs';
 
 var argv = terminalArgs
